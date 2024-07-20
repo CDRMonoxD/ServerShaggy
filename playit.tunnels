@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 16,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "connection-adjust.sa.joinmc.link",
+          "assigned_srv": "connection-adjust.sa.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "e688e54a-de23-4229-8e59-0afb7d35b1c6",
+          "ip_hostname": "16.ip.sa.ply.gg",
+          "ip_type": "both",
+          "port_end": 1379,
+          "port_start": 1378,
+          "region": "south-america",
+          "static_ip4": "23.133.216.16",
+          "tunnel_ip": "2602:fbaf:0:6::10"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-07-20T04:31:32.028634Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "fa4ad657-b3de-42ce-9466-d9e7cb1b6586",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "e156d71d-e580-442f-93d7-6648f653259d",
+          "agent_name": "serverShaggy",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "south-america",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 16,
+    "claimed": 0,
+    "desired": 0
+  }
+}
